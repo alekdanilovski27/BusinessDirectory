@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:background="#ffffff"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:background="#ffffff"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <EditText android:id="@+id/etLatitude"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Latitude"
+                android:inputType="numberDecimal|numberSigned"
+                android:background="#ffffff"
+                android:padding="12dp"
+                android:layout_marginEnd="8dp" />
+
+            <EditText android:id="@+id/etLongitude"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Longitude"
+                android:inputType="numberDecimal|numberSigned"
+                android:background="#ffffff"
+                android:padding="12dp" />
+
+        </LinearLayout>
+
+        <EditText android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail address"
+            android:inputType="textEmailAddress"
+            android:background="#ffffff"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <CheckBox android:id="@+id/cbIndustry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Industry" />
+
+        <CheckBox android:id="@+id/cbFun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fun" />
+
+        <CheckBox android:id="@+id/cbEducation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Education" />
+
+        <CheckBox android:id="@+id/cbServices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Services"
+            android:layout_marginBottom="8dp" />
+
+        <EditText android:id="@+id/etTelephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telephone"
+            android:inputType="phone"
+            android:background="#ffffff"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText android:id="@+id/etWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Web site"
+            android:inputType="textUri"
+            android:background="#ffffff"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:backgroundTint="#1a237e"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</ScrollView>
