@@ -91,17 +91,3 @@ supabaseKey = "YOUR_ANON_KEY"
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 ```
-
----
-
-## 👤 Author
-
-- **Name:** Aleksandar Danilovski
-- **Course:** Introduction to Mobile Technologies
-- **Task:** Task 3 — Advanced level (grade 9-10)
-
----
-
-## 📄 License
-
-This project was made for educational purposes.
